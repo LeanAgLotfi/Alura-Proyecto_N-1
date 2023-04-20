@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start img{
+       margin-left: 10px;
+       margin-top: 10px;
+       width: 100px;
+}
+
+.contenido{
+margin: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.contenido_principal {
+    display: flex;
+    width: 70%;
+    height: 500px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contenido_secundario {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.mostrar{
+    text-align: center;
+    font-style: italic;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+.texto textarea{
+    margin: 30px;
+    max-width: 70%;
+    max-height: 500px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.img#ocultar{
+    width: 250px;
+    height: auto;
+}
+
+.botones button {
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    width: 30%;
+    border-radius: 20px;
+    
+}
+
+.encriptar{
+    background-color: rgb(112, 88, 219);
+    border: none;
+    color: white;
+}
+.desencriptar{
+    color: rgb(112, 88, 219);
+    background-color: rgb(222, 204, 238);
+    border-color: rgb(112, 88, 219);
+   border: 2px solid rgb(112, 88, 219);
+}
+
+.creador{
+    height: 100px;
+    background-color:  rgb(112, 88, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    font-style: italic;
+}
